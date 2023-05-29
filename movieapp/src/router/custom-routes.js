@@ -4,7 +4,7 @@ import VisitorTemplate from "../template/visitor-template";
 import HomePage from "../pages/visitor/homepage";
 
 const CustomRouters = () => {
-  return;
+  return(
   <BrowserRouter>
     <Routes>
       <Route path="/">
@@ -12,7 +12,9 @@ const CustomRouters = () => {
         
       </Route>
     </Routes>
-  </BrowserRouter>;
+  </BrowserRouter>
+  )
+  
 };
 
 export default CustomRouters;
