@@ -4,13 +4,12 @@ import Footer from "../../components/common/footer/footer";
 import Home from "../../components/common/home/home";
 
 const HomePage = () => {
-  return (
-    <div>
-      <Menu />
-      <Home />
-      <Footer />{" "}
-    </div>
-  );
+  return <div>
+<Menu/>
+<Home/>
+<Footer/>
+
+  </div>;
 };
 
 export default HomePage;
