@@ -4,15 +4,15 @@ import VisitorTemplate from "../template/visitor-template";
 import HomePage from "../pages/visitor/homepage";
 
 const CustomRouters = () => {
-  return;
+  return(
   <BrowserRouter>
     <Routes>
       <Route path="/">
         <Route index element={<VisitorTemplate><HomePage/></VisitorTemplate>}/>
-        
       </Route>
     </Routes>
-  </BrowserRouter>;
+  </BrowserRouter>
+  )
 };
 
 export default CustomRouters;

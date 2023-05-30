@@ -1,7 +1,7 @@
 import React from "react";
 
-const VisitorTemplate = () => {
-  return <div>VisitorTemplate</div>;
+const VisitorTemplate = ({ children }) => {
+  return <div>{children}</div>;
 };
 
 export default VisitorTemplate;
